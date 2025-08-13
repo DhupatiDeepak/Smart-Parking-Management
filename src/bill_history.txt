@@ -1,0 +1,86 @@
+
+========= 🧾 PARKING BILL 🧾 =========
+Car ID            : 1001
+Owner Name        : Deva
+License Plate     : T1941
+Hours Parked      : 4.00
+Rate per Hour (₹) : 50.00
+Gross (₹)         : 200.00
+GST @ 18% (₹)     : 0.00
+TOTAL (₹)         : 200.00
+======================================
+
+
+========= 🧾 PARKING BILL 🧾 =========
+Car ID            : 1001
+Owner Name        : Raju
+License Plate     : lkfrw
+Hours Parked      : 5.00
+Rate per Hour (₹) : 60.00
+Gross (₹)         : 300.00
+GST @ 18% (₹)     : 0.00
+TOTAL (₹)         : 300.00
+======================================
+
+
+========= 🧾 PARKING BILL 🧾 =========
+Car ID            : 1001
+Owner Name        : Nani
+License Plate     : T1934
+Hours Parked      : 5.00
+Rate per Hour (₹) : 40.00
+Gross (₹)         : 200.00
+GST @ 18% (₹)     : 0.00
+TOTAL (₹)         : 200.00
+======================================
+
+
+========= 🧾 PARKING BILL 🧾 =========
+Car ID            : 1001
+Owner Name        : Deepak
+License Plate     : T1941
+Hours Parked      : 8.00
+Rate per Hour (₹) : 50.00
+Gross (₹)         : 400.00
+Discount (30%)    : -120.00
+GST @ 18% (₹)     : 50.40
+TOTAL (₹)         : 330.40
+======================================
+
+
+========= 🧾 PARKING BILL 🧾 =========
+Car ID            : 1001
+Owner Name        : DEEPAK
+License Plate     : kubfvrsd
+Hours Parked      : 10.00
+Rate per Hour (₹) : 90.00
+Gross (₹)         : 900.00
+Discount (30%)    : -270.00
+GST @ 18% (₹)     : 113.40
+TOTAL (₹)         : 743.40
+======================================
+
+
+========= 🧾 PARKING BILL 🧾 =========
+Car ID            : 2200
+Owner Name        : Owner1
+License Plate     : PLATE1
+Hours Parked      : 0.00
+Rate per Hour (₹) : 50.00
+Gross (₹)         : 0.00
+GST @ 18% (₹)     : 0.00
+TOTAL (₹)         : 0.00
+======================================
+
+
+========= 🧾 PARKING BILL 🧾 =========
+Car ID            : 2200
+Owner Name        : Owner1
+License Plate     : PLATE1
+Hours Parked      : 0.00
+Rate per Hour (₹) : 50.00
+Gross (₹)         : 0.00
+GST @ 18% (₹)     : 0.00
+TOTAL (₹)         : 0.00
+======================================
+
