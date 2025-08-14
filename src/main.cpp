@@ -22,13 +22,12 @@ std::ofstream logFile;
  * Utilizes the CYAN, BOLD, and RESET formatting constants to enhance the visual appearance.
  * Intended to be called at the start of the application to greet the user.
  */
-void startupBanner();
 void startupBanner() {
     std::cout << CYAN << BOLD
               << "\n"
               << "******************************************************\n"
               << "*                                                    *\n"
-              << "*          Welcome to Deepak Parking System            *\n"
+            << "*          Welcome to Deepak Parking System              *\n"
               << "*                                                    *\n"
               << "******************************************************\n\n"
               << RESET;

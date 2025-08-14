@@ -110,26 +110,75 @@ void ParkingLot::parkCar() {
     double parkingHours = 0.0;
 
     ParkingLot_logOut(silentMode, std::string(BOLD) + CYAN + "\n--- Car Parking Entry ---\n" + RESET);
-    ParkingLot_logOut(silentMode, YELLOW "Owner Name: " RESET); std::getline(std::cin, ownerName);
-    ParkingLot_logOut(silentMode, YELLOW "License Plate: " RESET); std::getline(std::cin, licensePlate);
-    ParkingLot_logOut(silentMode, YELLOW "Car Model: " RESET); std::getline(std::cin, model);
-    ParkingLot_logOut(silentMode, YELLOW "Color: " RESET); std::getline(std::cin, color);
-    ParkingLot_logOut(silentMode, YELLOW "Fuel Type: " RESET); std::getline(std::cin, fuelType);
-    ParkingLot_logOut(silentMode, YELLOW "Phone: " RESET); std::getline(std::cin, phone);
-    ParkingLot_logOut(silentMode, YELLOW "Email: " RESET); std::getline(std::cin, email);
-    ParkingLot_logOut(silentMode, YELLOW "Membership: " RESET); std::getline(std::cin, membership);
-    ParkingLot_logOut(silentMode, YELLOW "Payment Method: " RESET); std::getline(std::cin, paymentMethod);
-    ParkingLot_logOut(silentMode, YELLOW "Slot: " RESET); std::getline(std::cin, slot);
-    ParkingLot_logOut(silentMode, YELLOW "Slot Size: " RESET); std::getline(std::cin, slotSize);
 
-    ParkingLot_logOut(silentMode, YELLOW "Reserved Slot? (y/n): " RESET); std::cin >> reservedChoice;
-    reservedSlot = (reservedChoice == 'y' || reservedChoice == 'Y');
+    ParkingLot_logOut(silentMode, YELLOW "Owner Name: " RESET); 
+    std::getline(std::cin, ownerName);
+
+    ParkingLot_logOut(silentMode, YELLOW "License Plate: " RESET); 
+    std::getline(std::cin, licensePlate);
+
+    ParkingLot_logOut(silentMode, YELLOW "Car Model: " RESET); 
+    std::getline(std::cin, model);
+
+    ParkingLot_logOut(silentMode, YELLOW "Color: " RESET); 
+    std::getline(std::cin, color);
+
+    ParkingLot_logOut(silentMode, YELLOW "Fuel Type: " RESET); 
+    std::getline(std::cin, fuelType);
+
+    // PHONE VALIDATION - Only digits allowed
+    while (true) {
+        ParkingLot_logOut(silentMode, YELLOW "Phone: " RESET);
+        std::getline(std::cin, phone);
+        bool valid = !phone.empty() && std::all_of(phone.begin(), phone.end(), ::isdigit);
+        if (valid) break;
+        std::cout << RED << "Invalid input! Please enter a number.\n" << RESET;
+    }
+
+    // EMAIL VALIDATION - Must contain '@'
+    while (true) {
+        ParkingLot_logOut(silentMode, YELLOW "Email: " RESET);
+        std::getline(std::cin, email);
+        if (email.find('@') != std::string::npos) break;
+        std::cout << RED << "Invalid email! Please include '@'.\n" << RESET;
+    }
+
+    ParkingLot_logOut(silentMode, YELLOW "Membership: " RESET); 
+    std::getline(std::cin, membership);
+
+    ParkingLot_logOut(silentMode, YELLOW "Payment Method: " RESET); 
+    std::getline(std::cin, paymentMethod);
+
+    ParkingLot_logOut(silentMode, YELLOW "Slot: " RESET); 
+    std::getline(std::cin, slot);
+
+    ParkingLot_logOut(silentMode, YELLOW "Slot Size: " RESET); 
+    std::getline(std::cin, slotSize);
+
+    // RESERVED SLOT VALIDATION - Only y/n allowed
+    while (true) {
+        ParkingLot_logOut(silentMode, YELLOW "Reserved Slot? (y/n): " RESET);
+        std::cin >> reservedChoice;
+        if (reservedChoice == 'y' || reservedChoice == 'Y' || reservedChoice == 'n' || reservedChoice == 'N') {
+            reservedSlot = (reservedChoice == 'y' || reservedChoice == 'Y');
+            break;
+        }
+        std::cout << RED << "Invalid choice! Enter only y or n.\n" << RESET;
+    }
     std::cin.ignore();
-    ParkingLot_logOut(silentMode, YELLOW "Exit Gate: " RESET); std::getline(std::cin, exitGate);
-    ParkingLot_logOut(silentMode, YELLOW "Hourly Rate: " RESET); std::cin >> hourlyRate;
-    ParkingLot_logOut(silentMode, YELLOW "Dynamic Pricing? (y/n): " RESET); std::cin >> dynamicChoice;
+
+    ParkingLot_logOut(silentMode, YELLOW "Exit Gate: " RESET); 
+    std::getline(std::cin, exitGate);
+
+    ParkingLot_logOut(silentMode, YELLOW "Hourly Rate: " RESET); 
+    std::cin >> hourlyRate;
+
+    ParkingLot_logOut(silentMode, YELLOW "Dynamic Pricing? (y/n): " RESET); 
+    std::cin >> dynamicChoice;
     dynamicPricing = (dynamicChoice == 'y' || dynamicChoice == 'Y');
-    ParkingLot_logOut(silentMode, YELLOW "Parking Duration (hours, enter 0 for current time): " RESET); std::cin >> parkingHours;
+
+    ParkingLot_logOut(silentMode, YELLOW "Parking Duration (hours, enter 0 for current time): " RESET); 
+    std::cin >> parkingHours;
     std::cin.ignore();
 
     Car car(nextCarID++, ownerName, licensePlate, model, color, fuelType,
@@ -150,6 +199,7 @@ void ParkingLot::parkCar() {
         ParkingLot_logOut(silentMode, GREEN "✅ Car parked successfully!\n" RESET);
     }
 }
+
 
 /**
  * @brief Removes a car from the parking lot based on user input.

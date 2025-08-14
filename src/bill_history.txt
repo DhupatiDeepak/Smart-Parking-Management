@@ -84,3 +84,28 @@ GST @ 18% (₹)     : 0.00
 TOTAL (₹)         : 0.00
 ======================================
 
+
+========= 🧾 PARKING BILL 🧾 =========
+Car ID            : 1001
+Owner Name        : Naveen
+License Plate     : T123456
+Hours Parked      : 8.00
+Rate per Hour (₹) : 60.00
+Gross (₹)         : 480.00
+GST @ 18% (₹)     : 0.00
+TOTAL (₹)         : 480.00
+======================================
+
+
+========= 🧾 PARKING BILL 🧾 =========
+Car ID            : 1001
+Owner Name        : Deva
+License Plate     : T9876
+Hours Parked      : 9.00
+Rate per Hour (₹) : 80.00
+Gross (₹)         : 720.00
+Discount (30%)    : -216.00
+GST @ 18% (₹)     : 90.72
+TOTAL (₹)         : 594.72
+======================================
+

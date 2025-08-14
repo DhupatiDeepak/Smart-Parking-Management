@@ -258,3 +258,193 @@ Enter choice:
 3. Display Parked Cars
 4. Exit
 Enter choice: 
+===== New Session Started: Thu Aug 14 11:23:00 2025
+=====
+🚗 Welcome to Deva Parking System — Your car is safe with us!
+
+=== Deva Parking Menu ===
+1. Park Car
+2. Remove Car
+3. Display Parked Cars
+4. Exit
+Enter choice: 
+=== Deva Parking Menu ===
+1. Park Car
+2. Remove Car
+3. Display Parked Cars
+4. Exit
+Enter choice: 
+=== Deva Parking Menu ===
+1. Park Car
+2. Remove Car
+3. Display Parked Cars
+4. Exit
+Enter choice: 
+=== Deva Parking Menu ===
+1. Park Car
+2. Remove Car
+3. Display Parked Cars
+4. Exit
+Enter choice: ===== Session Ended =====
+
+===== New Session Started: Thu Aug 14 11:52:55 2025
+=====
+🚗 Welcome to Deva Parking System — Your car is safe with us!
+
+=== Deva Parking Menu ===
+1. Park Car
+2. Remove Car
+3. Display Parked Cars
+4. Exit
+Enter choice: 
+=== Deva Parking Menu ===
+1. Park Car
+2. Remove Car
+3. Display Parked Cars
+4. Exit
+Enter choice: 
+=== Deva Parking Menu ===
+1. Park Car
+2. Remove Car
+3. Display Parked Cars
+4. Exit
+Enter choice: 
+=== Deva Parking Menu ===
+1. Park Car
+2. Remove Car
+3. Display Parked Cars
+4. Exit
+Enter choice: ===== Session Ended =====
+
+===== New Session Started: Thu Aug 14 11:55:45 2025
+=====
+🚗 Welcome to Deva Parking System — Your car is safe with us!
+
+=== Deva Parking Menu ===
+1. Park Car
+2. Remove Car
+3. Display Parked Cars
+4. Exit
+Enter choice: 
+=== Deva Parking Menu ===
+1. Park Car
+2. Remove Car
+3. Display Parked Cars
+4. Exit
+Enter choice: Invalid input! Please enter a number.
+
+=== Deva Parking Menu ===
+1. Park Car
+2. Remove Car
+3. Display Parked Cars
+4. Exit
+Enter choice: ===== Session Ended =====
+
+===== New Session Started: Thu Aug 14 12:02:08 2025
+=====
+🚗 Welcome to Deva Parking System — Your car is safe with us!
+
+=== Deva Parking Menu ===
+1. Park Car
+2. Remove Car
+3. Display Parked Cars
+4. Exit
+Enter choice: 
+===== New Session Started: Thu Aug 14 12:09:40 2025
+=====
+🚗 Welcome to Deva Parking System — Your car is safe with us!
+
+=== Deva Parking Menu ===
+1. Park Car
+2. Remove Car
+3. Display Parked Cars
+4. Exit
+Enter choice: 
+===== New Session Started: Thu Aug 14 15:56:45 2025
+=====
+🚗 Welcome to Deva Parking System — Your car is safe with us!
+
+=== Deva Parking Menu ===
+1. Park Car
+2. Remove Car
+3. Display Parked Cars
+4. Exit
+Enter choice: 
+=== Deva Parking Menu ===
+1. Park Car
+2. Remove Car
+3. Display Parked Cars
+4. Exit
+Enter choice: Invalid input! Please enter a number.
+
+=== Deva Parking Menu ===
+1. Park Car
+2. Remove Car
+3. Display Parked Cars
+4. Exit
+Enter choice: 
+=== Deva Parking Menu ===
+1. Park Car
+2. Remove Car
+3. Display Parked Cars
+4. Exit
+Enter choice: 
+===== New Session Started: Thu Aug 14 16:03:55 2025
+=====
+🚗 Welcome to Deva Parking System — Your car is safe with us!
+
+=== Deva Parking Menu ===
+1. Park Car
+2. Remove Car
+3. Display Parked Cars
+4. Exit
+Enter choice: 
+=== Deva Parking Menu ===
+1. Park Car
+2. Remove Car
+3. Display Parked Cars
+4. Exit
+Enter choice: Invalid input! Please enter a number.
+
+=== Deva Parking Menu ===
+1. Park Car
+2. Remove Car
+3. Display Parked Cars
+4. Exit
+Enter choice: Invalid input! Please enter a number.
+
+=== Deva Parking Menu ===
+1. Park Car
+2. Remove Car
+3. Display Parked Cars
+4. Exit
+Enter choice: 
+=== Deva Parking Menu ===
+1. Park Car
+2. Remove Car
+3. Display Parked Cars
+4. Exit
+Enter choice: 
+===== New Session Started: Thu Aug 14 16:05:04 2025
+=====
+🚗 Welcome to Deva Parking System — Your car is safe with us!
+
+=== Deva Parking Menu ===
+1. Park Car
+2. Remove Car
+3. Display Parked Cars
+4. Exit
+Enter choice: 
+=== Deva Parking Menu ===
+1. Park Car
+2. Remove Car
+3. Display Parked Cars
+4. Exit
+Enter choice: Invalid input! Please enter a number.
+
+=== Deva Parking Menu ===
+1. Park Car
+2. Remove Car
+3. Display Parked Cars
+4. Exit
+Enter choice: ===== Session Ended =====
