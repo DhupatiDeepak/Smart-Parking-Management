@@ -1,6 +1,3 @@
-Here’s your **complete README.md** in a single copy-paste friendly block:
-
-```markdown
 # 🚗 Parking Management System
 
 A **comprehensive**, **feature-rich**, and **modular** C++ console application for managing a parking lot — built with robust data handling, dynamic pricing, billing, CSV persistence, and an extensive automated unit testing suite.  
@@ -54,7 +51,7 @@ This system is designed to simulate **real-world parking management** operations
 ---
 
 ## 📁 Project Structure
-```
+```bash
 
 parking\_management/
 ├── src/
@@ -70,9 +67,10 @@ parking\_management/
 ├── CMakeLists.txt             # Build configuration
 └── README.md                  # Documentation
 
-````
+```
 
----
+
+
 
 ## 🚀 Building and Running
 
