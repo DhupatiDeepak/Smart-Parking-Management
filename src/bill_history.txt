@@ -109,3 +109,27 @@ GST @ 18% (₹)     : 90.72
 TOTAL (₹)         : 594.72
 ======================================
 
+
+========= 🧾 PARKING BILL 🧾 =========
+Car ID            : 1001
+Owner Name        : Deepak
+License Plate     : ed3
+Hours Parked      : 0.00
+Rate per Hour (₹) : 50.00
+Gross (₹)         : 0.00
+GST @ 18% (₹)     : 0.00
+TOTAL (₹)         : 0.00
+======================================
+
+
+========= 🧾 PARKING BILL 🧾 =========
+Car ID            : 1001
+Owner Name        : Deepak
+License Plate     : T1841
+Hours Parked      : 5.00
+Rate per Hour (₹) : 80.00
+Gross (₹)         : 400.00
+GST @ 18% (₹)     : 0.00
+TOTAL (₹)         : 400.00
+======================================
+

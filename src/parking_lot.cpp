@@ -196,7 +196,7 @@ void ParkingLot::parkCar() {
         if (!silentMode) {
             saveCarToCSV(cars.back());
         }
-        ParkingLot_logOut(silentMode, GREEN "✅ Car parked successfully!\n" RESET);
+        ParkingLot_logOut(silentMode, GREEN "✅ Car parked successfully! and Ticket is Generated\n" RESET);
     }
 }
 
